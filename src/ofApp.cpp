@@ -80,7 +80,6 @@ void ofApp::draw(){
     // polygon
     for (int i = 0; i < polyShapes.size(); i++){
         ofPoint pos = polyShapes[i].get()->getPosition();
-        auto box = polyShapes[i].get()->getBoundingBox();
         float rot = polyShapes[i].get()->getRotation();
         
         ofPushMatrix();
